@@ -1,0 +1,121 @@
+@font-face {
+    font-family: LogoFont;
+    src: url(fonts/signika_negative/SignikaNegative-Regular.ttf);
+}
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #1a4d4c;
+    opacity: 1;
+    background: linear-gradient(135deg, #282e3355 25%, transparent 25%) -15px 0/ 30px 30px, 
+    linear-gradient(225deg, #282e33 25%, transparent 25%) -15px 0/ 30px 30px, 
+    linear-gradient(315deg, #282e3355 25%, transparent 25%) 0px 0/ 30px 30px, 
+    linear-gradient(45deg, #282e33 25%, #1a4d4c 25%) 0px 0/ 30px 30px;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
+header{
+    height: 100px;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+    box-shadow: .25rem .25rem .25rem #282e33;
+}
+.logo{
+    padding-left: 4rem;
+    float: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: LogoFont;
+    color: #fff;
+    letter-spacing: 3px;
+}
+nav{
+    float: right;
+    line-height: 60px;
+}
+nav a{ 
+    text-decoration: none;
+    font-family: LogoFont;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin: 0 1.5rem;
+    color: #fff;
+}
+
+.div1{
+    background-color: rgba(0, 0, 0, .5);
+    float: left;
+    margin-top: 25vh;
+    border: 1px solid #282e33;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 50vh;
+    width: 30vw;
+    margin-left: 5vh; 
+    box-shadow: 0.25rem 0.25rem 0.25rem #282e33;
+
+}
+.div2{
+    font-size: 3rem;
+}
+
+textarea{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #00ff00;
+    background-color: rgba(0, 0, 0, .5);
+    margin-top: 25vh;
+    margin-right: 5vh;
+    width: 50vw;
+    height: 50vh;
+    float: right;
+    padding: 1rem;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+    border: 1px solid #282e33;
+    box-shadow: 0.25rem 0.25rem 0.25rem #282e33;
+    resize: none;
+    outline: none;
+}
+.uploadB{
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+.submitB{
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+input#file-input{
+    display: none;
+}
+input#upload-button{
+    display: none;
+}
+label{
+    width: 6rem;
+    background-color: #1a4d4c;
+    padding: 8px;
+    color: #fff;
+    border: 2px solid #1a4d4c;
+    border-radius: 8px;
+}
+label:hover{
+    width: 6rem;
+    background-color: #296160;
+    padding: 8px;
+    color: #fff;
+    border: 2px solid #1a4d4c;
+    border-radius: 8px;
+}
